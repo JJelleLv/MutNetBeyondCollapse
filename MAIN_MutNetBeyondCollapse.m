@@ -13,7 +13,7 @@ close all
 rng('shuffle');
 
 %% replace files (make new simulation and analysis)
-replaceFiles = true;
+replaceFiles = false;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% Step 1: Make time series (using GRIND for MATLAB) %%%%
