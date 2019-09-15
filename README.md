@@ -26,8 +26,8 @@ To run the main function: open Matlab, go to the folder where the main function 
 
 In total examples of three initial networks (max NETnr=3) and five final networks per initial network (max SETnr=5) are provided.
 
-Simulations or analysis are loaded from a file when replace\*File = false. 
-New simulations or analysis are loaded from a file when replace\*File = true.
+Simulations or analysis are loaded from a file when replaceFile = false. 
+New simulations or analysis are made when replaceFile = true.
 
 Step 1: Simulations are made with a length of 20.000 time steps. This step assumes that Grind for Matlab is installed (see above). When this is not the case, please go to the grind folder and run 'setupgrind' (see 'readme.txt' in this folder for additional information).  
 Step 2: The mean abundance and a CI are determined in a rolling window with length 'meanRange_window' (in number of time steps). This window is moved forward with a number of steps equal to 'meanRange_stepsize'. Windows (partially) overlap when meanRange_stepsize &lt; meanRange_window.  
