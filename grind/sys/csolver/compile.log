@@ -1,0 +1,8 @@
+-------------- Clean: Release in csolver (compiler: GNU GCC Compiler)---------------
+-------------- Build: Release in csolver (compiler: GNU GCC Compiler)---------------
+mingw32-g++.exe -Wall -fexceptions  -fomit-frame-pointer -fexpensive-optimizations -O3 -std=c++11 -w -ffast-math -march=native     -c "d:\alg\MAT LAB\grind\sys\csolver\csolver1.cpp" -o obj\Release\csolver1.o
+In file included from d:\alg\MAT LAB\grind\sys\csolver\csolver1.cpp:15:0:
+d:\alg\MAT LAB\grind\sys\csolver\model.tmp: In function 'void odefile(double, double*, double*, TModel&)':
+d:\alg\MAT LAB\grind\sys\csolver\model.tmp:47:42: error: '(& g_model.TModel::v_y0.std::vector<_Tp, _Alloc>::operator[]<TMatrix, std::allocator<TMatrix> >(0u))->TMatrix::operator()(g_ii)' cannot be used as a function
+Process terminated with status 1 (0 minutes, 0 seconds)
+1 errors, 0 warnings (0 minutes, 0 seconds)
