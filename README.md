@@ -1,6 +1,6 @@
 # MutNetBeyondCollapse
 
-When using this code for further research, please cite the original publication: Lever, J.J., Van de Leemput, I.A., Weinans, E., Quax, R., Van Nes, E. H., Bascompte, J., & Scheffer, M. (2019). Foreseeing the future of mutualistic communities beyond collapse. *Ecology Letters*, XX(X), XXX-XXX.
+When using this code for further research, please cite the original publication: Lever, J.J., Van de Leemput, I.A., Weinans, E., Quax, R., Van Nes, E. H., Bascompte, J., & Scheffer, M. (in press). Foreseeing the future of mutualistic communities beyond collapse. *Ecology Letters*. doi:10.1111/ele.13401
 
 ## PURPOSE AND SETUP
 
