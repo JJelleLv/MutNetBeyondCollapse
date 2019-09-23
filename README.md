@@ -1,10 +1,6 @@
 # MutNetBeyondCollapse
 
--------------------------------------------------------------------
-
 When using this code for further research, please cite the original publication: Lever, J.J., Van de Leemput, I.A., Weinans, E., Quax, R., Van Nes, E. H., Bascompte, J., & Scheffer, M. (2019). Foreseeing the future of mutualistic communities beyond collapse. *Ecology Letters*, XX(X), XXX-XXX.
-
--------------------------------------------------------------------
 
 ## PURPOSE AND SETUP
 
@@ -14,8 +10,6 @@ The folder '+code' contains the Matlab functions supporting the main function (M
 The folder 'data' contains data needed to make simulations, the output from simulations and time-series analysis.  
 The folder 'grind' contains Grind for MATLAB, a package needed to generate time series (https://www.sparcs-center.org/resources/, downloaded d.d. 15/09/2019).  
 The file 'MAIN_MutNetBeyondCollapse.m' is the main function executing six steps from making a simulation to plotting figures for initial network 'NETnr' and final network 'SETnr'.  
-
--------------------------------------------------------------------
 
 ## NOTES ON MAIN_MutNetBeyondCollapse.m
 
