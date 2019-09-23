@@ -1,5 +1,4 @@
-MutNetBeyondCollapse - A MATLAB(R) Package
-===================================
+# MutNetBeyondCollapse - A MATLAB(R) Package
 
 Copying and distribution of this file, with or without modification, are permitted in any medium without royalty provided the copyright notice and this notice are preserved. This file is offered as-is, without any warranty.
 
@@ -9,7 +8,7 @@ When using this code for further research, please cite the original publication:
 
 -------------------------------------------------------------------
 
-#### PURPOSE AND SETUP
+## PURPOSE AND SETUP
 
 The main purpose of this code is to provide insight in the analysis done for the above mentioned publication. Adjustments to the code will likely be nescessary when applying the method proposed in this publication to your own data or when making additional simulations. Please contact the authors for more information.
 
@@ -20,14 +19,14 @@ The file 'MAIN_MutNetBeyondCollapse.m' is the main function executing six steps 
 
 -------------------------------------------------------------------
 
-#### NOTES ON MAIN_MutNetBeyondCollapse.m
+## NOTES ON MAIN_MutNetBeyondCollapse.m
 
 To run the main function: open Matlab, go to the folder where the main function is stored, and type 'MAIN_MutNetBeyondCollapse(NETnr,SETnr)' in the command line, i.e. to make simulations, analysis, or plot figures for NETnr=1 and SETnr=1, type: 'MAIN_MutNetBeyondCollapse(1,1)'. 
 
 In total examples of three initial networks (max NETnr=3) and five final networks per initial network (max SETnr=5) are provided.
 
-Simulations or analysis are loaded from a file when replaceFile = false. 
-New simulations or analysis are made when replaceFile = true.
+Simulations and analysis are loaded from a file when replaceFile = false. 
+New simulations and analysis are made when replaceFile = true.
 
 Step 1: Simulations are made with a length of 20.000 time steps. This step assumes that Grind for Matlab is installed (see above). When this is not the case, please go to the grind folder and run 'setupgrind' (see 'readme.txt' in this folder for additional information).  
 Step 2: The mean abundance and a CI are determined in a rolling window with length 'meanRange_window' (in number of time steps). This window is moved forward with a number of steps equal to 'meanRange_stepsize'. Windows (partially) overlap when meanRange_stepsize &lt; meanRange_window.  
